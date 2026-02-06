@@ -58,6 +58,7 @@
 - Arduino IDE 2.3.6
 - ESP8266 开发板包（推荐 2.7.4（3.x版本`brzo_i2c` 会报 asm 错误，所以暂降至2.7.4 ））
 - CH340 驱动
+- LittleFS Filesystem Uploader v1.6.0
 
 常用库（全部放在 `C:/Users/你的用户名/Documents/Arduino/libraries`）：
 
