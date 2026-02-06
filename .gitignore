@@ -1,0 +1,14 @@
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Editor/IDE metadata
+.idea/
+.vscode/
+*.code-workspace
+
+# Logs
+*.log
+
+# Node dependencies (do not vendor)
+**/node_modules/
