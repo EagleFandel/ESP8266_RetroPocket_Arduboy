@@ -1,0 +1,30 @@
+{
+  "name": "example_game",
+  "display_name": "Example Game",
+  "version": "0.1.0",
+  "author": "your-name",
+  "license": "MIT",
+  "entry": "example_game.ino",
+  "board": [
+    "NodeMCU 1.0 (ESP-12E Module)"
+  ],
+  "controls": {
+    "up": "D5",
+    "down": "D6",
+    "left": "D7",
+    "right": "D3",
+    "a": "D4",
+    "b": "RX"
+  },
+  "features": {
+    "eeprom": true,
+    "sound": "minimal",
+    "status": "playable"
+  },
+  "tested": {
+    "core": "ESP8266 2.7.4",
+    "ide": "2.3.6"
+  },
+  "notes": "Add compatibility notes here"
+}
+
