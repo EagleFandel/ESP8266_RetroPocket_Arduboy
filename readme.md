@@ -1,6 +1,16 @@
-# ESP8266_RetroPocket_Arduboy
+﻿# ESP8266_RetroPocket_Arduboy
 
 > 基于 ESP8266 和 SSD1306/SSD1315 OLED 的 Arduboy 游戏机开源复刻方案，支持原生游戏运行，并预留 Wi-Fi 扩展方向。
+
+## ⚡ Quick Links
+
+
+### README 章节跳转
+
+- [🚀 快速开始](#-快速开始)
+- [🎓 移植与开发教程](#-移植与开发教程)
+- [📚 文档导航](#-文档导航)
+- [🎮 资源与游戏下载](#-资源与游戏下载)
 
 ---
 
@@ -75,35 +85,40 @@
 
 ## 🚀 快速开始
 
-1. 阅读硬件与接线：`doc/相关信息.md`
-2. 完成串口与上传连通：`doc/上传指南.md`
-3. 打开示例游戏并编译上传（如 `games/tetris/tetris.ino`）
-4. 开始移植新游戏：`doc/游戏移植指南.md`
-5. 参考开发教程创建新项目：`doc/游戏开发教程.md`
+
+- [阅读硬件与接线](doc/相关信息.md)
+- [完成串口与上传连通](doc/上传指南.md)
+- [打开示例游戏并编译上传（`games/tetris/tetris.ino`）](games/tetris/tetris.ino)
+- [开始移植新游戏](doc/游戏移植指南.md)
+- [参考开发教程创建新项目](doc/游戏开发教程.md)
+
+
 
 ---
 
 ## 🎓 移植与开发教程
 
-- 游戏移植教程：`doc/游戏移植指南.md`
-- 游戏开发教程：`doc/游戏开发教程.md`
+- [游戏移植教程](doc/游戏移植指南.md)
+- [游戏开发教程](doc/游戏开发教程.md)
+
 
 ---
 
 ## 📚 文档导航
 
-- 复刻总览：`doc/ESPboy_Arduboy_Port.md`
-- 上传排错：`doc/上传指南.md`
-- 游戏移植：`doc/游戏移植指南.md`
-- 游戏开发：`doc/游戏开发教程.md`
-- 文档总览：`doc/README.md`
-- 开源索引：`doc/OPEN_SOURCE_INDEX.md`
+- [复刻总览](doc/ESPboy_Arduboy_Port.md)
+- [上传排错](doc/上传指南.md)
+- [游戏移植](doc/游戏移植指南.md)
+- [游戏开发](doc/游戏开发教程.md)
+- [文档总览](doc/README.md)
+- [开源索引](doc/OPEN_SOURCE_INDEX.md)
 
 ---
 
 ## 🎮 资源与游戏下载
 
 - 项目内置/移植游戏：`games/`
+- 本仓库已收录游戏目录索引：`games/`（`arduman`、`ardynia`、`dark_and_under`、`tetris`）
 - Arduboy 官方与社区资源：
   - https://arduboy.com/
   - https://community.arduboy.com/
@@ -136,10 +151,17 @@ ESPboy_esp8266/
 
 ## 🗺️ 路线图（Roadmap）
 
+### 技术路线流程图
+
+![技术路线图（本地）](doc/open-source-roadmap/technical-roadmap.png)
+
 - 复刻教程完善（图示化、排错流程化）
 - 游戏移植标准化（模板 + manifest + 验收清单）
+- PCB 验证与硬件可靠性（电源、按键、显示稳定性）
+- 工业设计与 3D 建模（外壳结构、人机工程、装配工艺）
 - 开发体验优化（starter、工具链、自动化检查）
 - Wi-Fi 扩展（OTA、联网功能实验）
+- 联网生态（排行榜、配置同步、内容分发）
 
 详见：`doc/open-source-roadmap/ROADMAP.md`
 
@@ -180,3 +202,4 @@ ESPboy_esp8266/
 
 - `cheungbx/esp8266_arduboy2`：https://github.com/cheungbx/esp8266_arduboy2
 - 本项目在早期 ESP8266 + Arduboy2 适配思路上，参考了其 README 中关于按键映射、移植步骤与平台限制的经验总结。
+
